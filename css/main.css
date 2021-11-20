@@ -1,0 +1,40 @@
+@import "style.css";
+@import "fonts.css";
+
+/*  */
+
+:root {
+    /* COLORS */
+    --color-1: ;
+    --color-2: #878db1;
+    --color-3: #fff;
+    /* FONTS */
+    --Gagalin: Gagalin;
+    --Blogger: Blogger;
+    --Glitch: Glitch;
+    --Drawing: Drawing;
+    --DoodleItalic: DoodleItalic;
+    --DoodleRegular: DoodleRegular;
+    --Crayon: Crayon;
+}
+
+body.morning {
+    --color-1: #7194ff;
+    --color-2: #c1cbd9;
+}
+
+body.afternoon {
+    --color-1: #4c5562;
+    --color-2: #8190a5;
+}
+
+body.night {
+    --color-1: #100E1D;
+    --color-2: #7c76db;
+}
+
+
+/*  */
+
+
+/*  */

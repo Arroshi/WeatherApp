@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather App</title>
+
+    <link rel="stylesheet" href="css/main.css">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css" rel="stylesheet">
+
+</head>
+
+<body>
+    <!-- PRE LOADER -->
+    <div class="preloader">
+        <div class="box">
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+        </div>
+    </div>
+    <!-- END PRE LOADER -->
+
+    <div class="toggle">
+
+        <div class="top-toggle">
+            <div class="hamburger" id="button">
+                <i class="fas fa-bars"></i>
+            </div>
+            <!-- <div class="gps">
+                <i class="fas fa-map-marker-alt"></i>
+            </div> -->
+            <!-- <div class="search">
+                <i class="fas fa-search-location"></i>
+            </div> -->
+        </div>
+
+        <section class="section content-toggle show">
+            <!-- <div class="nav-search">
+                <button type="submit"> Search for places <i class="fa fa-search"></i></button>
+            </div>
+            <div class="nav-content">
+                <input type="text" placeholder="Search..">
+                <button type="submit"><i class="fa fa-search"></i></button>
+                <input type="text" placeholder="Search..">
+                <button type="submit"><i class="fa fa-search"></i></button>
+            </div> -->
+
+
+            <div class="group-bg">
+                <img class="cloud-bg" src="icons/Cloud-background.png" alt="">
+                <img class="shower-bg" src="http://openweathermap.org/img/wn/04d@4x.png" alt="">
+                <!-- <img class="shower-bg" src="icons/Shower.png" alt=""> -->
+            </div>
+            <div class="group-content">
+                <!-- contenido js -->
+                <div class="gc-centigrate" id="gc-centigrate"><span></span></div>
+                <div class="gc-clima" id="gc-clima"></div>
+            </div>
+            <div class="group-details">
+                <div class="details-top beetwen">
+                    <div id="">
+                        Today
+                    </div>
+                    <div>•</div>
+                    <div id="date-today">
+
+                    </div>
+
+                </div>
+                <div class="details-bot">
+                    <i class="icon fas fa-map-marker-alt"></i> &nbsp;
+                    <p id="city"></p>
+                </div>
+            </div>
+        </section>
+
+        <!-- <section class="section search-toggle">
+            <form class="nav-search" id="nav-search">
+                <input id="search_input" type="text" placeholder="Search for places">
+                <button type="submit"><i class="fa fa-search"></i></button>
+            </form>
+        </section> -->
+    </div>
+
+    <div class="section-container">
+        <div class="barra-top">
+            <div class="barra-container">
+                <div class="logo">
+                    <a href="">Toryo</a>
+                </div>
+                <!-- <div class="barra-item-r" id="button">
+                    <div>°C</div>
+                    <div>°F</div>
+                </div> -->
+
+            </div>
+        </div>
+        <div class="details-container">
+            <div class="day-items" id="day-items">
+                <!-- contenido en js -->
+            </div>
+            <div class="day-hightlights" id="highlight">
+                <!-- <div class="day-hightlight-item">
+                    <div class="day-hightlight-title">Wind status</div>
+                    <div class="day-hightlight-cont" id="wind-speed"></div>
+                    <div class="day-hightlight-details"><i class="fas fa-location-arrow"></i>&nbsp; WSW</div>
+                </div>
+                <div class="day-hightlight-item">
+                    <div class="day-hightlight-title">Humidity</div>
+                    <div class="day-hightlight-cont" id="humidity"></div>
+                    <div class="day-hightlight-progress beetwen">
+                        <span>0%</span>
+                        <div class="progress-bar " style="width: calc(% - 7px)">
+                            <span>%</span>
+                        </div>
+                        <span>100%</span>
+                    </div>
+                </div>
+                <div class="day-hightlight-item">
+                    <div class="day-hightlight-title">Temperature</div>
+                    <div class="day-hightlight-cont" id="temperature" style="height: 104px;"><span>&nbsp; °C</span></div>
+                </div>
+                <div class="day-hightlight-item">
+                    <div class="day-hightlight-title">Air Pressure</div>
+                    <div class="day-hightlight-cont" id="air-pressure" style="height: 104px;"><span>&nbsp; mb</span></div>
+                </div> -->
+            </div>
+            <div class="copyright-text">
+                <p ">&copy; 2021 My Weather App by <a target="_blank " href="https://arroshi.github.io/portfolio/ ">Toryo</a>.</p>
+            </div>
+        </div>
+    </div>
+
+
+
+</body>
+
+<script src="js/main.js "></script>
+<script src="js/weather.js "></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.29.1/moment.min.js " integrity="sha512-qTXRIMyZIFb8iQcfjXWCO8+M5Tbc38Qi5WzdPOYZHIlZpzBHG3L3by84BBBOiRGiEb7KKtAOAs5qYdUiZiQNNQ==" crossorigin=" anonymous " referrerpolicy="no-referrer "></script>
+
+</html>

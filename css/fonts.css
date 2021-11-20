@@ -1,0 +1,34 @@
+@font-face {
+    font-family: Glitch;
+    src: url(../fonts/CFGlitchCity-Regular.ttf);
+}
+
+@font-face {
+    font-family: Gagalin;
+    src: url(../fonts/Gagalin-Regular.ttf);
+}
+
+@font-face {
+    font-family: Blogger;
+    src: url(../fonts/blogger-sans.medium.ttf);
+}
+
+@font-face {
+    font-family: Drawing;
+    src: url(../fonts/Drawing-Rainbow.ttf);
+}
+
+@font-face {
+    font-family: DoodleItalic;
+    src: url(../fonts/DoodleSketchDemoItalic.ttf);
+}
+
+@font-face {
+    font-family: DoodleRegular;
+    src: url(../fonts/DoodleSketchDemoRegular.ttf);
+}
+
+@font-face {
+    font-family: Crayon;
+    src: url(../fonts/OneCrayon.ttf);
+}
